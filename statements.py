@@ -31,3 +31,15 @@ elif grade >= 0 and grade <= 19:
     print(f"Your score is {grade}% and you got a F. Get help!")
 else:
     print(f"Your score is {grade}% and you got an A. Excellent Job!")
+print()
+
+#Positive, Negative, or Zero
+print("Is the number Positive, Negative, or Zero?")
+num = int(input("Enter a number: "))
+
+if num == 0:
+    print(f"{num} is Zero")
+elif num < 0:
+    print(f"{num} is Negative")
+else:
+    print(f"{num} is Positive")
