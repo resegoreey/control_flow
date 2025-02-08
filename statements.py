@@ -19,3 +19,15 @@ else:
     print("They are equal...")
 print()
 
+#Grade classification
+grade = int(input("Enter number from 0-100: "))
+if grade >= 60 and grade <= 79:
+    print(f"Your score is {grade}% and you got a B. Good Job!")
+elif grade >= 40 and grade <= 59:
+    print(f"Your score is {grade}% and you got a C. Keep going!")
+elif grade >= 20 and grade <= 39:
+    print(f"Your score is {grade}% and you got a D. Work hard!")
+elif grade >= 0 and grade <= 19:
+    print(f"Your score is {grade}% and you got a F. Get help!")
+else:
+    print(f"Your score is {grade}% and you got an A. Excellent Job!")
